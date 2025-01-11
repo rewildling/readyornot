@@ -5,7 +5,7 @@ export default function Home() {
     <div className="min-h-screen bg-white dark:bg-gray-900">
       {/* Hero Section */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16 text-center">
-        <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white sm:text-5xl md:text-6xl">
+        <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white sm:text-5xl md:text-6xl flex flex-col gap-6">
           <span className="block">Ready or Not,</span>
           <span className="block text-blue-600">Here It Comes</span>
         </h1>
