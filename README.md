@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ready or Not (readyornot.ai)
 
-## Getting Started
+Ready or Not is a project focused on helping individuals and businesses develop better context for AI interactions. Our thesis is that proper context development is crucial for effective AI use - without it, you're just getting more efficient at doing the wrong things.
 
-First, run the development server:
+## 7-Day Launch Goals
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Core Website Components
+- Landing page showcasing the importance of context in AI interactions
+- Interactive demos comparing AI responses with/without context
+- Simple framework explanation based on:
+  - Holistic Context Development
+  - Theory of Constraints
+  - Forms of Capital
+  - Q2 Time Management
+
+### Technical Implementation
+- Next.js frontend with TailwindCSS ✅
+- OpenAI and Claude API integration
+- Interactive demo components
+- Basic newsletter signup
+- Analytics setup
+
+### Content Creation
+- Core thesis explanation
+- Before/After examples of AI interactions
+- Basic context development framework
+- Initial blog posts demonstrating value
+
+### Success Metrics for Week 1
+- Website live and functioning
+- Working AI integration demos
+- Initial traffic from social media shares
+- Newsletter signups (if any)
+- User engagement with demos
+
+## Development Setup
+
+### Environment Variables Required
+```
+NEXT_PUBLIC_ANTHROPIC_API_KEY=your_claude_api_key
+NEXT_PUBLIC_OPENAI_API_KEY=your_openai_api_key
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
+```bash
+npm install
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Project Structure
+```
+/src
+  /app
+    /components
+      - ContextComparison.tsx
+      - [other components]
+    /services
+      - ai.ts
+    /page.tsx
+    /layout.tsx
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Next Phase (Post-Launch)
+- Gather user feedback
+- Refine the context development framework
+- Develop more interactive tools
+- Create content based on user questions/needs
