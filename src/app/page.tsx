@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { ContextDemo } from "@/components/ContextDemo";
 import { ChatInterface } from "@/components/ChatInterface";
 
@@ -18,11 +17,11 @@ export default function Home() {
             </p>
             
             <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300">
-              Most people aren't. They're throwing prompts at AI and hoping for magic. But there's a massive opportunity for those who know how to use it effectively.
+              Most people aren&apos;t. They&apos;re throwing prompts at AI and hoping for magic. But there&apos;s a massive opportunity for those who know how to use it effectively.
             </p>
 
             <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300">
-              Here's what most are missing: <span className="font-bold text-gray-900 dark:text-white">context is everything</span>. Without clear context, you're just getting random outputs faster. With it, AI becomes a tool for real progress.
+              Here&apos;s what most are missing: <span className="font-bold text-gray-900 dark:text-white">context is everything</span>. Without clear context, you&apos;re just getting random outputs faster. With it, AI becomes a tool for real progress.
             </p>
 
             <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300">
