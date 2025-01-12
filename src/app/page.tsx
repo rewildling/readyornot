@@ -53,12 +53,12 @@ export default function Home() {
 
               <div className="text-left mb-8">
                 <p className="text-lg text-gray-600 dark:text-gray-300 mb-4">
-                  We're here to help you:
+                  We&apos;re here to help you:
                 </p>
                 <ul className="space-y-4 text-lg text-gray-600 dark:text-gray-300">
                   <li className="flex items-start">
                     <span className="text-blue-600 mr-3 font-bold">1.</span>
-                    <span><strong>Develop your context</strong> (what matters, what you're trying to achieve, what you have to work with)</span>
+                    <span><strong>Develop your context</strong> (what matters, what you&apos;re trying to achieve, what you have to work with)</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-blue-600 mr-3 font-bold">2.</span>
@@ -72,11 +72,11 @@ export default function Home() {
               </div>
 
               <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-                Want to see the difference context makes? Try the demo below. Same question, same AI - but one has context, one doesn't.
+                Want to see the difference context makes? Try the demo below. Same question, same AI - but one has context, one doesn&apos;t.
               </p>
 
               <p className="text-lg text-gray-600 dark:text-gray-300">
-                We've built a simple system for developing and communicating the context AI needs to actually help you make progress. No hype, no complexity - just clear frameworks and real results.
+                We&apos;ve built a simple system for developing and communicating the context AI needs to actually help you make progress. No hype, no complexity - just clear frameworks and real results.
               </p>
             </div>
           </div>
@@ -92,7 +92,7 @@ export default function Home() {
             </h2>
             
             <p className="text-gray-600 dark:text-gray-300 mb-6">
-              AI is coming whether we're ready or not. But here's the thing - throwing AI at random problems won't make you more effective. It'll just make you more efficient at doing the wrong things.
+              AI is coming whether we&apos;re ready or not. But here&apos;s the thing - throwing AI at random problems won&apos;t make you more effective. It&apos;ll just make you more efficient at doing the wrong things.
             </p>
 
             <p className="text-gray-600 dark:text-gray-300 mb-6">
@@ -106,11 +106,11 @@ export default function Home() {
             <ul className="list-none space-y-4 mb-6">
               <li className="flex items-center text-gray-600 dark:text-gray-300">
                 <span className="text-blue-600 mr-2">•</span>
-                <strong>Mission</strong> (what you're actually trying to do)
+                <strong>Mission</strong> (what you&apos;re actually trying to do)
               </li>
               <li className="flex items-center text-gray-600 dark:text-gray-300">
                 <span className="text-blue-600 mr-2">•</span>
-                <strong>Principles</strong> (what you won't compromise on)
+                <strong>Principles</strong> (what you won&apos;t compromise on)
               </li>
               <li className="flex items-center text-gray-600 dark:text-gray-300">
                 <span className="text-blue-600 mr-2">•</span>
@@ -118,16 +118,16 @@ export default function Home() {
               </li>
               <li className="flex items-center text-gray-600 dark:text-gray-300">
                 <span className="text-blue-600 mr-2">•</span>
-                <strong>Constraints</strong> (what's holding you back)
+                <strong>Constraints</strong> (what&apos;s holding you back)
               </li>
             </ul>
 
             <p className="text-gray-600 dark:text-gray-300 mb-6">
-              This isn't just theory. This is about getting results.
+              This isn&apos;t just theory. This is about getting results.
             </p>
 
             <p className="text-gray-600 dark:text-gray-300 mb-6">
-              Want to see the difference context makes? Try our demo below. Same question, same AI models - but one has context, one doesn't. The results speak for themselves.
+              Want to see the difference context makes? Try our demo below. Same question, same AI models - but one has context, one doesn&apos;t. The results speak for themselves.
             </p>
 
             <p className="text-gray-600 dark:text-gray-300 mb-6">
@@ -139,7 +139,7 @@ export default function Home() {
             </p>
 
             <p className="text-gray-600 dark:text-gray-300 font-semibold">
-              Let's figure this out together.
+              Let&apos;s figure this out together.
             </p>
           </div>
         </div>
@@ -174,7 +174,7 @@ export default function Home() {
           
           <div className="prose dark:prose-invert prose-lg mx-auto">
             <p className="text-gray-600 dark:text-gray-300 mb-8">
-              Here's what we've learned about developing context that actually works - not just for AI, but for any complex decision-making:
+              Here&apos;s what we&apos;ve learned about developing context that actually works - not just for AI, but for any complex decision-making:
             </p>
 
             {/* Holistic Context Section */}
@@ -192,7 +192,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-start text-gray-600 dark:text-gray-300">
                   <span className="text-blue-600 mr-2 text-lg">•</span>
-                  <span><strong>Your core values</strong> (what you won't compromise on)</span>
+                  <span><strong>Your core values</strong> (what you won&apos;t compromise on)</span>
                 </li>
                 <li className="flex items-start text-gray-600 dark:text-gray-300">
                   <span className="text-blue-600 mr-2 text-lg">•</span>
@@ -204,7 +204,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-start text-gray-600 dark:text-gray-300">
                   <span className="text-blue-600 mr-2 text-lg">•</span>
-                  <span><strong>Your constraints</strong> (what's holding you back)</span>
+                  <span><strong>Your constraints</strong> (what&apos;s holding you back)</span>
                 </li>
               </ul>
             </div>
@@ -220,7 +220,7 @@ export default function Home() {
               <ul className="list-none space-y-3">
                 <li className="flex items-start text-gray-600 dark:text-gray-300">
                   <span className="text-blue-600 mr-2 text-lg">•</span>
-                  <span><strong>Your current reality</strong> (what's actually happening now)</span>
+                  <span><strong>Your current reality</strong> (what&apos;s actually happening now)</span>
                 </li>
                 <li className="flex items-start text-gray-600 dark:text-gray-300">
                   <span className="text-blue-600 mr-2 text-lg">•</span>
@@ -232,7 +232,7 @@ export default function Home() {
                 </li>
               </ul>
               <p className="text-gray-600 dark:text-gray-300 mt-4">
-                This isn't just theory - it's about identifying what's actually blocking progress and dealing with it systematically.
+                This isn&apos;t just theory - it&apos;s about identifying what&apos;s actually blocking progress and dealing with it systematically.
               </p>
             </div>
 
@@ -242,7 +242,7 @@ export default function Home() {
                 Forms of Capital
               </h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                Know what you're working with:
+                Know what you&apos;re working with:
               </p>
               <ul className="list-none space-y-3">
                 <li className="flex items-start text-gray-600 dark:text-gray-300">
@@ -267,7 +267,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-start text-gray-600 dark:text-gray-300">
                   <span className="text-blue-600 mr-2 text-lg">•</span>
-                  <span><strong>Experiential</strong> (what you've learned)</span>
+                  <span><strong>Experiential</strong> (what you&apos;ve learned)</span>
                 </li>
                 <li className="flex items-start text-gray-600 dark:text-gray-300">
                   <span className="text-blue-600 mr-2 text-lg">•</span>
