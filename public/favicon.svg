@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Outer square (context) -->
+  <rect x="4" y="4" width="24" height="24" 
+        fill="none" 
+        stroke="#1a1a1a" 
+        stroke-width="2"/>
+  
+  <!-- Inner square (focus) with R/N -->
+  <rect x="8" y="8" width="16" height="16" 
+        fill="#1a1a1a"/>
+  
+  <!-- R/N text - smaller font size -->
+  <text x="16" y="19" 
+        font-family="Arial, sans-serif" 
+        font-size="10" 
+        font-weight="bold" 
+        fill="white" 
+        text-anchor="middle">
+    R/N
+  </text>
+</svg> 
