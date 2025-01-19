@@ -138,26 +138,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Demo Section */}
-      <section className="py-16 bg-gray-50 dark:bg-gray-800" id="demo">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white sm:text-4xl">
-              See the Difference Context Makes
-            </h2>
-            <div className="mt-4 max-w-2xl mx-auto">
-              <p className="text-xl text-gray-500 dark:text-gray-400 font-mono">
-                Prompt: Help me optimize my marketing strategy...
-              </p>
-              <p className="mt-2 text-sm text-red-600 font-semibold">
-                DEMO, FILL IN WITH REAL
-              </p>
-            </div>
-          </div>
-          <ContextDemo />
-        </div>
-      </section>
-
       {/* Framework Section */}
       <section className="py-16 bg-white dark:bg-gray-900" id="framework">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
