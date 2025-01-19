@@ -1,6 +1,3 @@
-import { ContextDemo } from "@/components/ContextDemo";
-import { ChatInterface } from "@/components/ChatInterface";
-
 export default function Home() {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
@@ -27,10 +24,6 @@ export default function Home() {
             <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300">
               Our thesis is simple: successfully communicating your context - personal or business - is critical if you want to do more than waste time with AI.
             </p>
-          </div>
-
-          <div className="mt-10">
-            <ChatInterface />
           </div>
         </div>
       </main>
