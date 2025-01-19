@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <style>
+    rect { stroke: #1a1a1a; fill: none; }
+    .inner { fill: #1a1a1a; }
+    text { fill: white; }
+    @media (prefers-color-scheme: dark) {
+      rect { stroke: #ffffff; }
+      .inner { fill: #ffffff; }
+      text { fill: #1a1a1a; }
+    }
+  </style>
+  
   <!-- Outer square (context) -->
-  <rect x="4" y="4" width="24" height="24" 
-        fill="none" 
-        stroke="#1a1a1a" 
-        stroke-width="2"/>
+  <rect x="4" y="4" width="24" height="24" stroke-width="2"/>
   
   <!-- Inner square (focus) with R/N -->
-  <rect x="8" y="8" width="16" height="16" 
-        fill="#1a1a1a"/>
+  <rect class="inner" x="8" y="8" width="16" height="16"/>
   
   <!-- R/N text -->
   <text x="16" y="19" 
-        font-family="Arial, sans-serif" 
+        font-family="system-ui, -apple-system, sans-serif" 
         font-size="10" 
         font-weight="bold" 
-        fill="white" 
         text-anchor="middle"
         dominant-baseline="middle">
     R/N

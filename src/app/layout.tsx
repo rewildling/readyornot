@@ -17,13 +17,10 @@ export const metadata: Metadata = {
   description: "Learn how to effectively use AI by understanding and communicating context",
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "32x32" },
-      { url: "/favicon.svg", type: "image/svg+xml" }
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon.svg', type: 'image/svg+xml' }
     ],
-    apple: [
-      { url: "/apple-touch-icon.png" }
-    ],
-    shortcut: [{ url: "/favicon.ico" }]
+    apple: { url: '/favicon.svg' }
   }
 };
 
