@@ -110,7 +110,7 @@ export default function Home() {
               </p>
 
               <p>
-                I&apos;m a dad trying to use these tools to be better at everything that matters—<strong>without losing my soul to the screen</strong>.
+                I&apos;m a dad trying to use these tools to be better at everything that matters,<strong>without losing my soul to the screen</strong>.
               </p>
 
               <p>
