@@ -210,16 +210,16 @@ export default function Home() {
         }
 
         .hero h1 {
-          font-family: var(--serif);
+          font-family: var(--sans);
           font-size: clamp(2.5rem, 8vw, 4.5rem);
-          font-weight: 400;
+          font-weight: 800;
           line-height: 1.1;
           margin-bottom: 2rem;
           letter-spacing: -0.02em;
         }
 
         .hero h1 em {
-          font-style: italic;
+          font-style: normal;
           color: var(--red);
         }
 

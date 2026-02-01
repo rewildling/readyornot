@@ -40,10 +40,11 @@ export default function Header() {
         }
 
         .logo {
-          font-family: var(--serif);
-          font-size: 1rem;
-          letter-spacing: 0.05em;
-          color: var(--gray);
+          font-family: var(--sans);
+          font-size: 1.25rem;
+          font-weight: 800;
+          letter-spacing: -0.02em;
+          color: var(--black);
           text-decoration: none;
         }
 
