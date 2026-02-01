@@ -148,11 +148,6 @@ export default function Home() {
               <strong>Real experiments:</strong> What I&apos;m actually trying in business, in parenting, and in life.
             </li>
           </ul>
-
-          <div className="commitment">
-            <p>&ldquo;100 pieces of content. Make one thing better every time.&rdquo;</p>
-            <span>That&apos;s the commitment. You&apos;re invited to watch it happen.</span>
-          </div>
         </div>
       </section>
 
@@ -441,7 +436,7 @@ export default function Home() {
 
         .what-list {
           list-style: none;
-          margin-bottom: 3rem;
+          margin-bottom: 0;
         }
 
         .what-list li {
@@ -458,42 +453,22 @@ export default function Home() {
           color: var(--red);
         }
 
-        .commitment {
-          background: var(--black);
-          color: var(--white);
-          padding: 2rem;
-          margin-top: 3rem;
-        }
-
-        .commitment p {
-          font-family: var(--serif);
-          font-size: 1.25rem;
-          font-style: italic;
-          margin-bottom: 1rem;
-        }
-
-        .commitment span {
-          font-family: var(--sans);
-          font-size: 0.9rem;
-          color: rgba(255,255,255,0.6);
-        }
-
         /* Final CTA */
         .final-cta {
-          padding: 8rem 0;
+          padding: 6rem 0;
           text-align: center;
           background: var(--white);
         }
 
         .final-cta h2 {
-          font-family: var(--serif);
+          font-family: var(--sans);
           font-size: clamp(2rem, 6vw, 3.5rem);
-          font-weight: 400;
+          font-weight: 800;
           margin-bottom: 1.5rem;
         }
 
         .final-cta h2 em {
-          font-style: italic;
+          font-style: normal;
           color: var(--red);
         }
 
