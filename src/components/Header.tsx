@@ -1,29 +1,72 @@
+"use client";
+
 import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          <Link href="/" className="text-xl font-extrabold text-gray-900 dark:text-white">
-            Ready or <span className="text-red-600">Not.</span>
+    <header className="header">
+      <div className="header-container">
+        <Link href="/" className="logo">
+          Ready or <span>Not</span>.
+        </Link>
+        <nav className="nav">
+          <a href="https://321.readyornot.ai" className="nav-link">
+            Newsletter
+          </a>
+          <Link href="/work-with-me" className="nav-link">
+            Work With Me
           </Link>
-          <nav className="flex items-center space-x-6">
-            <a
-              href="https://321.readyornot.ai"
-              className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
-            >
-              Newsletter
-            </a>
-            <Link
-              href="/work-with-me"
-              className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
-            >
-              Work With Me
-            </Link>
-          </nav>
-        </div>
+        </nav>
       </div>
+
+      <style jsx>{`
+        .header {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          z-index: 100;
+          background: var(--white);
+          border-bottom: 1px solid var(--gray-light);
+        }
+
+        .header-container {
+          max-width: 680px;
+          margin: 0 auto;
+          padding: 1rem 1.5rem;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        .logo {
+          font-family: var(--serif);
+          font-size: 1rem;
+          letter-spacing: 0.05em;
+          color: var(--gray);
+          text-decoration: none;
+        }
+
+        .logo span {
+          color: var(--red);
+        }
+
+        .nav {
+          display: flex;
+          gap: 1.5rem;
+        }
+
+        .nav-link {
+          font-size: 0.9rem;
+          color: var(--gray);
+          text-decoration: none;
+          transition: color 0.2s ease;
+        }
+
+        .nav-link:hover {
+          color: var(--black);
+        }
+      `}</style>
     </header>
   );
 }

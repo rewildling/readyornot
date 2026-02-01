@@ -1,295 +1,507 @@
+"use client";
+
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900">
-      {/* Hero Section */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16">
-        <div className="max-w-3xl mx-auto">
-          <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white sm:text-5xl md:text-6xl text-left">
-            <span>Ready or <span className="text-red-600">Not.</span></span>
-          </h1>
-          
-          <div className="mt-8 space-y-6">
-            <p className="text-xl sm:text-2xl font-semibold text-gray-900 dark:text-white">
-              Are you ready for the massive changes AI is bringing?
-            </p>
-            
-            <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300">
-              Most people aren&apos;t. They&apos;re throwing prompts at AI and hoping for magic. But there&apos;s a massive opportunity for those who know how to use it effectively.
-            </p>
+    <>
+      {/* Hero */}
+      <section className="hero">
+        <div className="container">
+          <h1>You feel it, <em>don&apos;t you?</em></h1>
 
-            <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300">
-              Here&apos;s what most are missing: <span className="font-bold text-gray-900 dark:text-white">context is everything</span>. Without clear context, you&apos;re just getting random outputs faster. With it, AI becomes a tool for real progress.
-            </p>
+          <p className="hero-lead">
+            The ground shifting. The rules changing faster than anyone can explain.
+            AI promising everything while the algorithms slowly eat your attention, your time, your presence with the people who matter most.
+          </p>
 
-            <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300">
-              Our thesis is simple: successfully communicating your context - personal or business - is critical if you want to do more than waste time with AI.
-            </p>
-          </div>
+          <a href="#subscribe" className="cta-primary">
+            Follow the journey
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </a>
         </div>
-      </main>
+      </section>
 
-      {/* Feature Section */}
-      <section className="py-16 bg-gray-50 dark:bg-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white sm:text-4xl">
-              Why Context Matters
-            </h2>
-            <div className="mt-8 max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 dark:text-gray-300 mb-6">
-                AI is powerful. But power without direction just creates chaos faster.
+      {/* The Struggle */}
+      <section className="struggle">
+        <div className="container">
+          <h2>Here&apos;s what no one&apos;s saying out loud:</h2>
+
+          <div className="struggle-grid">
+            <div className="struggle-item">
+              <p>
+                <strong>You see the potential.</strong> AI could help you make more money, work fewer hours,
+                finally get ahead. You&apos;re not a luddite. You want to use it.
               </p>
-              
-              <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-                The difference between getting random outputs and getting actual results comes down to one thing: context.
+            </div>
+
+            <div className="struggle-item">
+              <p>
+                <strong>But you also feel trapped.</strong> Every time you pick up your phone,
+                something&apos;s pulling at your attention. The feeds. The notifications. The endless scroll
+                that leaves you feeling emptier than when you started.
               </p>
+            </div>
 
-              <div className="text-left mb-8">
-                <p className="text-lg text-gray-600 dark:text-gray-300 mb-4">
-                  We&apos;re here to help you:
-                </p>
-                <ul className="space-y-4 text-lg text-gray-600 dark:text-gray-300">
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-3 font-bold">1.</span>
-                    <span><strong>Develop your context</strong> (what matters, what you&apos;re trying to achieve, what you have to work with)</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-3 font-bold">2.</span>
-                    <span><strong>Document it effectively</strong> (capture the important parts in a usable way)</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-3 font-bold">3.</span>
-                    <span><strong>Communicate it to AI</strong> (so you get aligned, meaningful results)</span>
-                  </li>
-                </ul>
-              </div>
-
-              <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-                Want to see the difference context makes? Try the demo below. Same question, same AI - but one has context, one doesn&apos;t.
+            <div className="struggle-item">
+              <p>
+                <strong>And the stakes keep rising.</strong> Jobs are shifting. Income feels fragile.
+                You&apos;re watching friends and colleagues scramble to stay relevant while wondering
+                if you&apos;re doing enough.
               </p>
+            </div>
 
-              <p className="text-lg text-gray-600 dark:text-gray-300">
-                We&apos;ve built a simple system for developing and communicating the context AI needs to actually help you make progress. No hype, no complexity - just clear frameworks and real results.
+            <div className="struggle-item">
+              <p>
+                <strong>Meanwhile, the people you love are right there</strong>—and you&apos;re half-present,
+                distracted, always with one eye on the screen.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Letter Section */}
-      <section className="py-16 bg-white dark:bg-gray-900">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="prose dark:prose-invert prose-lg mx-auto">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
-              Ready or Not...
-            </h2>
-            
-            <p className="text-gray-600 dark:text-gray-300 mb-6">
-              AI is coming whether we&apos;re ready or not. But here&apos;s the thing - throwing AI at random problems won&apos;t make you more effective. It&apos;ll just make you more efficient at doing the wrong things.
-            </p>
-
-            <p className="text-gray-600 dark:text-gray-300 mb-6">
-              Context is the dark matter of intelligence. Without it, AI is just pattern matching. With it, it becomes a tool for actual progress.
-            </p>
-
-            <p className="text-gray-600 dark:text-gray-300 mb-6">
-              I learned this while developing a holistic context for our farm. The process made something clear: before you can make good decisions, you need to understand your:
-            </p>
-
-            <ul className="list-none space-y-4 mb-6">
-              <li className="flex items-center text-gray-600 dark:text-gray-300">
-                <span className="text-blue-600 mr-2">•</span>
-                <strong>Mission</strong> (what you&apos;re actually trying to do)
-              </li>
-              <li className="flex items-center text-gray-600 dark:text-gray-300">
-                <span className="text-blue-600 mr-2">•</span>
-                <strong>Principles</strong> (what you won&apos;t compromise on)
-              </li>
-              <li className="flex items-center text-gray-600 dark:text-gray-300">
-                <span className="text-blue-600 mr-2">•</span>
-                <strong>Resources</strong> (what you have to work with)
-              </li>
-              <li className="flex items-center text-gray-600 dark:text-gray-300">
-                <span className="text-blue-600 mr-2">•</span>
-                <strong>Constraints</strong> (what&apos;s holding you back)
-              </li>
-            </ul>
-
-            <p className="text-gray-600 dark:text-gray-300 mb-6">
-              This isn&apos;t just theory. This is about getting results.
-            </p>
-
-            <p className="text-gray-600 dark:text-gray-300 mb-6">
-              Want to see the difference context makes? Try our demo below. Same question, same AI models - but one has context, one doesn&apos;t. The results speak for themselves.
-            </p>
-
-            <p className="text-gray-600 dark:text-gray-300 mb-6">
-              I built this site to help people develop and articulate their context. Not through fancy sales pitches or manipulation. Just through clear frameworks and real examples.
-            </p>
-
-            <p className="text-gray-600 dark:text-gray-300 mb-6">
-              Because ready or not, AI is here. The only question is: will you use it effectively?
-            </p>
-
-            <p className="text-gray-600 dark:text-gray-300 font-semibold">
-              Let&apos;s figure this out together.
-            </p>
+      {/* Two Forces */}
+      <section className="forces">
+        <div className="container">
+          <div className="forces-intro">
+            <h2>Two forces. Same technology.</h2>
+            <p>One wants to help you build a life. The other wants to consume it.</p>
           </div>
+
+          <div className="forces-comparison">
+            <div className="force-card leverage">
+              <div className="force-label">AI as Leverage</div>
+              <h3>The upside is real</h3>
+              <p>
+                Used well, these tools can help you earn more, think clearer,
+                work on what matters, and free up time for the people and things you love.
+              </p>
+            </div>
+
+            <div className="force-card capture">
+              <div className="force-label">Algorithms as Capture</div>
+              <h3>So is the danger</h3>
+              <p>
+                Every platform is optimized to keep you scrolling, clicking, consuming.
+                Your attention is the product. Your presence is the cost.
+              </p>
+            </div>
+          </div>
+
+          <p className="forces-punchline">Most people can&apos;t tell the difference.</p>
         </div>
       </section>
 
-      {/* Framework Section */}
-      <section className="py-16 bg-white dark:bg-gray-900" id="framework">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white text-center mb-12">
-            The Context Framework
-          </h2>
-          
-          <div className="prose dark:prose-invert prose-lg mx-auto">
-            <p className="text-gray-600 dark:text-gray-300 mb-8">
-              Here&apos;s what we&apos;ve learned about developing context that actually works - not just for AI, but for any complex decision-making:
-            </p>
+      {/* Who */}
+      <section className="who">
+        <div className="container">
+          <div className="who-content">
+            <h2>I&apos;m Dylan. Father of five. Building a life that works while the world rewrites the rules.</h2>
 
-            {/* Holistic Context Section */}
-            <div className="mb-12">
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                Holistic Context
-              </h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-4">
-                Start here. This is your foundation:
+            <div className="who-text">
+              <p>
+                My oldest is 10. My youngest is in diapers. My wife works harder than anyone I&apos;ve ever met
+                holding this family together, and I owe it to her—to all of them—to figure out how to
+                provide, protect, and still be <strong>present</strong>.
               </p>
-              <ul className="list-none space-y-3">
-                <li className="flex items-start text-gray-600 dark:text-gray-300">
-                  <span className="text-blue-600 mr-2 text-lg">•</span>
-                  <span><strong>Your mission statement</strong> (what success actually looks like)</span>
-                </li>
-                <li className="flex items-start text-gray-600 dark:text-gray-300">
-                  <span className="text-blue-600 mr-2 text-lg">•</span>
-                  <span><strong>Your core values</strong> (what you won&apos;t compromise on)</span>
-                </li>
-                <li className="flex items-start text-gray-600 dark:text-gray-300">
-                  <span className="text-blue-600 mr-2 text-lg">•</span>
-                  <span><strong>Your principles</strong> (how you operate)</span>
-                </li>
-                <li className="flex items-start text-gray-600 dark:text-gray-300">
-                  <span className="text-blue-600 mr-2 text-lg">•</span>
-                  <span><strong>Your available resources</strong> (what you have to work with)</span>
-                </li>
-                <li className="flex items-start text-gray-600 dark:text-gray-300">
-                  <span className="text-blue-600 mr-2 text-lg">•</span>
-                  <span><strong>Your constraints</strong> (what&apos;s holding you back)</span>
-                </li>
-              </ul>
-            </div>
 
-            {/* Theory of Constraints Section */}
-            <div className="mb-12">
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                Theory of Constraints
-              </h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-4">
-                Once you know where you are, map out:
+              <p>
+                I&apos;m a dad trying to use these tools to be better at everything that matters—<strong>without losing my soul to the screen</strong>.
               </p>
-              <ul className="list-none space-y-3">
-                <li className="flex items-start text-gray-600 dark:text-gray-300">
-                  <span className="text-blue-600 mr-2 text-lg">•</span>
-                  <span><strong>Your current reality</strong> (what&apos;s actually happening now)</span>
-                </li>
-                <li className="flex items-start text-gray-600 dark:text-gray-300">
-                  <span className="text-blue-600 mr-2 text-lg">•</span>
-                  <span><strong>Your desired future</strong> (where you want to go)</span>
-                </li>
-                <li className="flex items-start text-gray-600 dark:text-gray-300">
-                  <span className="text-blue-600 mr-2 text-lg">•</span>
-                  <span><strong>Your transition path</strong> (how to get there)</span>
-                </li>
-              </ul>
-              <p className="text-gray-600 dark:text-gray-300 mt-4">
-                This isn&apos;t just theory - it&apos;s about identifying what&apos;s actually blocking progress and dealing with it systematically.
-              </p>
-            </div>
 
-            {/* Forms of Capital Section */}
-            <div className="mb-12">
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                Forms of Capital
-              </h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-4">
-                Know what you&apos;re working with:
+              <p>
+                I&apos;m also terrified. Not for me. For my kids. What world are we handing them?
+                How do I protect them from the algorithms? How do I help them develop a sense of self
+                before the feeds take over?
               </p>
-              <ul className="list-none space-y-3">
-                <li className="flex items-start text-gray-600 dark:text-gray-300">
-                  <span className="text-blue-600 mr-2 text-lg">•</span>
-                  <span><strong>Financial</strong> (money, assets)</span>
-                </li>
-                <li className="flex items-start text-gray-600 dark:text-gray-300">
-                  <span className="text-blue-600 mr-2 text-lg">•</span>
-                  <span><strong>Material</strong> (physical resources)</span>
-                </li>
-                <li className="flex items-start text-gray-600 dark:text-gray-300">
-                  <span className="text-blue-600 mr-2 text-lg">•</span>
-                  <span><strong>Living</strong> (biological assets)</span>
-                </li>
-                <li className="flex items-start text-gray-600 dark:text-gray-300">
-                  <span className="text-blue-600 mr-2 text-lg">•</span>
-                  <span><strong>Social</strong> (relationships, networks)</span>
-                </li>
-                <li className="flex items-start text-gray-600 dark:text-gray-300">
-                  <span className="text-blue-600 mr-2 text-lg">•</span>
-                  <span><strong>Intellectual</strong> (knowledge, skills)</span>
-                </li>
-                <li className="flex items-start text-gray-600 dark:text-gray-300">
-                  <span className="text-blue-600 mr-2 text-lg">•</span>
-                  <span><strong>Experiential</strong> (what you&apos;ve learned)</span>
-                </li>
-                <li className="flex items-start text-gray-600 dark:text-gray-300">
-                  <span className="text-blue-600 mr-2 text-lg">•</span>
-                  <span><strong>Cultural</strong> (shared understanding)</span>
-                </li>
-                <li className="flex items-start text-gray-600 dark:text-gray-300">
-                  <span className="text-blue-600 mr-2 text-lg">•</span>
-                  <span><strong>Spiritual</strong> (purpose, meaning)</span>
-                </li>
-              </ul>
-            </div>
 
-            {/* Q2 Time Management Section */}
-            <div className="mb-12">
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                Q2 Time Management
-              </h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-4">
-                Focus on what matters:
-              </p>
-              <ul className="list-none space-y-3">
-                <li className="flex items-start text-gray-600 dark:text-gray-300">
-                  <span className="text-blue-600 mr-2 text-lg">•</span>
-                  <span>Important but not urgent</span>
-                </li>
-                <li className="flex items-start text-gray-600 dark:text-gray-300">
-                  <span className="text-blue-600 mr-2 text-lg">•</span>
-                  <span>Strategic rather than reactive</span>
-                </li>
-                <li className="flex items-start text-gray-600 dark:text-gray-300">
-                  <span className="text-blue-600 mr-2 text-lg">•</span>
-                  <span>Building rather than fixing</span>
-                </li>
-              </ul>
-            </div>
-
-            {/* Why This Matters Section */}
-            <div>
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                Why This Matters for AI
-              </h3>
-              <p className="text-gray-600 dark:text-gray-300">
-                AI amplifies whatever you feed it. Poor context = poor results, just faster.<br />
-                Good context = AI that actually helps you move toward your goals.
+              <p>
+                <strong>Ready or Not</strong> is me working all of this out in public.
+                The experiments, the failures, the things that actually work.
+                Real-time documentation from someone in the middle of it.
               </p>
             </div>
           </div>
         </div>
       </section>
-    </div>
+
+      {/* What This Is */}
+      <section className="what">
+        <div className="container">
+          <h2>What you&apos;ll find here</h2>
+
+          <ul className="what-list">
+            <li>
+              <strong>AI leverage:</strong> What actually helps. Tools, workflows, the stuff that moves the needle—not productivity theater.
+            </li>
+            <li>
+              <strong>Algorithm defense:</strong> How to protect your attention, detect manipulation, and stay human in a world designed to capture you.
+            </li>
+            <li>
+              <strong>The integrated life:</strong> Building businesses and systems that work with your family, not against it. Presence as the ultimate metric.
+            </li>
+            <li>
+              <strong>Real experiments:</strong> What I&apos;m actually trying—in business, in parenting, in life. The failures matter more than the wins.
+            </li>
+          </ul>
+
+          <div className="commitment">
+            <p>&ldquo;100 pieces of content. Make one thing better every time.&rdquo;</p>
+            <span>That&apos;s the commitment. You&apos;re invited to watch it happen.</span>
+          </div>
+        </div>
+      </section>
+
+      {/* Final CTA */}
+      <section className="final-cta" id="subscribe">
+        <div className="container">
+          <h2>Ready or <em>not</em>, here it comes.</h2>
+          <p>
+            If you&apos;re feeling the tension between potential and overwhelm,
+            between wanting to use these tools and not wanting to lose yourself to them—you&apos;re not alone.
+          </p>
+
+          <div className="newsletter-embed">
+            <a href="https://321.readyornot.ai" className="cta-primary" style={{ width: '100%', justifyContent: 'center' }}>
+              Subscribe to the Newsletter
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </a>
+            <p className="newsletter-note">Free. Unsubscribe anytime. No algorithmic nonsense.</p>
+          </div>
+        </div>
+      </section>
+
+      <style jsx>{`
+        .container {
+          max-width: 680px;
+          margin: 0 auto;
+          padding: 0 1.5rem;
+        }
+
+        /* Hero Section */
+        .hero {
+          min-height: 100vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 4rem 0;
+          position: relative;
+          background: var(--white);
+        }
+
+        .hero::after {
+          content: '';
+          position: absolute;
+          bottom: 2rem;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 1px;
+          height: 60px;
+          background: linear-gradient(to bottom, var(--black), transparent);
+          animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+          0%, 100% { opacity: 0.3; }
+          50% { opacity: 1; }
+        }
+
+        .hero h1 {
+          font-family: var(--serif);
+          font-size: clamp(2.5rem, 8vw, 4.5rem);
+          font-weight: 400;
+          line-height: 1.1;
+          margin-bottom: 2rem;
+          letter-spacing: -0.02em;
+        }
+
+        .hero h1 em {
+          font-style: italic;
+          color: var(--red);
+        }
+
+        .hero-lead {
+          font-size: 1.25rem;
+          color: var(--gray);
+          margin-bottom: 3rem;
+          max-width: 540px;
+        }
+
+        .cta-primary {
+          display: inline-flex;
+          align-items: center;
+          gap: 0.75rem;
+          background: var(--black);
+          color: var(--white);
+          padding: 1rem 2rem;
+          font-size: 1rem;
+          font-weight: 500;
+          text-decoration: none;
+          transition: all 0.2s ease;
+        }
+
+        .cta-primary:hover {
+          background: var(--red);
+          transform: translateY(-2px);
+        }
+
+        .cta-primary svg {
+          width: 20px;
+          height: 20px;
+          transition: transform 0.2s ease;
+        }
+
+        .cta-primary:hover svg {
+          transform: translateX(4px);
+        }
+
+        /* The Struggle Section */
+        .struggle {
+          padding: 6rem 0;
+          background: var(--black);
+          color: var(--white);
+        }
+
+        .struggle h2 {
+          font-family: var(--serif);
+          font-size: clamp(1.75rem, 5vw, 2.5rem);
+          font-weight: 400;
+          line-height: 1.3;
+          margin-bottom: 3rem;
+        }
+
+        .struggle-grid {
+          display: grid;
+          gap: 2rem;
+        }
+
+        .struggle-item {
+          border-left: 2px solid var(--red);
+          padding-left: 1.5rem;
+        }
+
+        .struggle-item p {
+          font-size: 1.1rem;
+          color: rgba(255,255,255,0.8);
+          line-height: 1.7;
+        }
+
+        .struggle-item strong {
+          color: var(--white);
+        }
+
+        /* Two Forces Section */
+        .forces {
+          padding: 6rem 0;
+          background: var(--white);
+        }
+
+        .forces-intro {
+          text-align: center;
+          margin-bottom: 4rem;
+        }
+
+        .forces-intro h2 {
+          font-family: var(--serif);
+          font-size: clamp(1.75rem, 5vw, 2.5rem);
+          font-weight: 400;
+          margin-bottom: 1rem;
+        }
+
+        .forces-intro p {
+          color: var(--gray);
+          font-size: 1.1rem;
+        }
+
+        .forces-comparison {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 2rem;
+        }
+
+        @media (max-width: 640px) {
+          .forces-comparison {
+            grid-template-columns: 1fr;
+          }
+        }
+
+        .force-card {
+          padding: 2rem;
+          border: 1px solid var(--gray-light);
+        }
+
+        .force-card.leverage {
+          border-color: var(--black);
+        }
+
+        .force-card.capture {
+          background: var(--gray-light);
+          border-color: transparent;
+        }
+
+        .force-label {
+          font-size: 0.75rem;
+          font-weight: 600;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          margin-bottom: 1rem;
+          color: var(--gray);
+        }
+
+        .force-card.leverage .force-label {
+          color: var(--black);
+        }
+
+        .force-card.capture .force-label {
+          color: var(--red);
+        }
+
+        .force-card h3 {
+          font-family: var(--serif);
+          font-size: 1.5rem;
+          font-weight: 400;
+          margin-bottom: 1rem;
+        }
+
+        .force-card p {
+          color: var(--gray);
+          font-size: 0.95rem;
+        }
+
+        .forces-punchline {
+          text-align: center;
+          margin-top: 3rem;
+          font-family: var(--serif);
+          font-size: 1.5rem;
+          font-style: italic;
+        }
+
+        /* About / Who Section */
+        .who {
+          padding: 6rem 0;
+          background: var(--gray-light);
+        }
+
+        .who-content {
+          display: grid;
+          gap: 2rem;
+        }
+
+        .who h2 {
+          font-family: var(--serif);
+          font-size: clamp(1.5rem, 4vw, 2rem);
+          font-weight: 400;
+          line-height: 1.4;
+        }
+
+        .who-text p {
+          margin-bottom: 1.5rem;
+          color: var(--gray);
+          font-size: 1.05rem;
+        }
+
+        .who-text p:last-child {
+          margin-bottom: 0;
+        }
+
+        .who-text strong {
+          color: var(--black);
+        }
+
+        /* What This Is Section */
+        .what {
+          padding: 6rem 0;
+          background: var(--white);
+        }
+
+        .what h2 {
+          font-family: var(--serif);
+          font-size: clamp(1.75rem, 5vw, 2.5rem);
+          font-weight: 400;
+          margin-bottom: 2rem;
+        }
+
+        .what-list {
+          list-style: none;
+          margin-bottom: 3rem;
+        }
+
+        .what-list li {
+          padding: 1.25rem 0;
+          border-bottom: 1px solid var(--gray-light);
+          font-size: 1.1rem;
+        }
+
+        .what-list li:first-child {
+          border-top: 1px solid var(--gray-light);
+        }
+
+        .what-list strong {
+          color: var(--red);
+        }
+
+        .commitment {
+          background: var(--black);
+          color: var(--white);
+          padding: 2rem;
+          margin-top: 3rem;
+        }
+
+        .commitment p {
+          font-family: var(--serif);
+          font-size: 1.25rem;
+          font-style: italic;
+          margin-bottom: 1rem;
+        }
+
+        .commitment span {
+          font-family: var(--sans);
+          font-size: 0.9rem;
+          color: rgba(255,255,255,0.6);
+        }
+
+        /* Final CTA */
+        .final-cta {
+          padding: 8rem 0;
+          text-align: center;
+          background: var(--white);
+        }
+
+        .final-cta h2 {
+          font-family: var(--serif);
+          font-size: clamp(2rem, 6vw, 3.5rem);
+          font-weight: 400;
+          margin-bottom: 1.5rem;
+        }
+
+        .final-cta h2 em {
+          font-style: italic;
+          color: var(--red);
+        }
+
+        .final-cta > .container > p {
+          color: var(--gray);
+          font-size: 1.1rem;
+          margin-bottom: 2.5rem;
+          max-width: 480px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .newsletter-embed {
+          max-width: 480px;
+          margin: 0 auto;
+        }
+
+        .newsletter-note {
+          margin-top: 1rem;
+          font-size: 0.85rem;
+          color: var(--gray);
+        }
+      `}</style>
+    </>
   );
 }

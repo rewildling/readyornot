@@ -1,19 +1,43 @@
+"use client";
+
 export default function Footer() {
   return (
-    <footer className="bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
-          <a
-            href="https://321.readyornot.ai"
-            className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
-          >
-            Newsletter
-          </a>
-          <p className="text-gray-500 dark:text-gray-400 text-sm">
-            &copy; 2025 Dunder Blixem LLC
-          </p>
-        </div>
+    <footer className="footer">
+      <div className="footer-container">
+        <p>
+          <a href="https://321.readyornot.ai">Newsletter Archive</a> ·{" "}
+          A <a href="https://dunderblixem.com">Dunder Blixem</a> project
+        </p>
       </div>
+
+      <style jsx>{`
+        .footer {
+          padding: 3rem 0;
+          border-top: 1px solid var(--gray-light);
+          text-align: center;
+          background: var(--white);
+        }
+
+        .footer-container {
+          max-width: 680px;
+          margin: 0 auto;
+          padding: 0 1.5rem;
+        }
+
+        .footer p {
+          font-size: 0.9rem;
+          color: var(--gray);
+        }
+
+        .footer a {
+          color: var(--black);
+          text-decoration: none;
+        }
+
+        .footer a:hover {
+          color: var(--red);
+        }
+      `}</style>
     </footer>
   );
 }

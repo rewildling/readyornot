@@ -1,17 +1,25 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { DM_Sans, Instrument_Serif } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const inter = Inter({
-  variable: "--font-inter",
+const dmSans = DM_Sans({
+  variable: "--font-dm-sans",
   subsets: ["latin"],
+  weight: ["300", "400", "500", "600"],
+});
+
+const instrumentSerif = Instrument_Serif({
+  variable: "--font-instrument-serif",
+  subsets: ["latin"],
+  weight: ["400"],
+  style: ["normal", "italic"],
 });
 
 export const metadata: Metadata = {
-  title: "Ready or Not",
-  description: "Learn how to effectively use AI by understanding and communicating context",
+  title: "Ready or Not — How to Thrive in the Age of Algorithms",
+  description: "AI leverage without algorithmic capture. Real experiments in using technology to build a better life.",
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: '32x32' },
@@ -31,7 +39,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} font-sans antialiased`}>
+      <body className={`${dmSans.variable} ${instrumentSerif.variable} antialiased`}>
         <Header />
         {children}
         <Footer />

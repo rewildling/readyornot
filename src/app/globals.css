@@ -3,20 +3,40 @@
 @tailwind utilities;
 
 :root {
-  --primary: #0066cc;
-  --background: white;
-  --text: #333333;
+  --black: #0a0a0a;
+  --white: #fafafa;
+  --red: #e63946;
+  --gray: #6b7280;
+  --gray-light: #f3f4f6;
+  --serif: 'Instrument Serif', Georgia, serif;
+  --sans: 'DM Sans', -apple-system, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --primary: #3399ff;
-    --background: #111111;
-    --text: #ffffff;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  scroll-behavior: smooth;
 }
 
 body {
-  color: var(--text);
-  background: var(--background);
+  font-family: var(--sans);
+  background: var(--white);
+  color: var(--black);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --black: #fafafa;
+    --white: #0a0a0a;
+    --gray: #9ca3af;
+    --gray-light: #1f2937;
+  }
 }
