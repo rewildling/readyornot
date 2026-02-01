@@ -10,19 +10,11 @@ export default function Home() {
 
           <div className="hero-content">
             <p>
-              You feel it. The ground is shifting. The rules are changing faster than anyone can explain.
+              Every day there&apos;s a new wave of AI tools promising to change everything. At the same time, the algorithms are slowly eating your attention, your time, and your presence with the people who matter most.
             </p>
 
             <p>
-              Every day there&apos;s a new wave of AI tools promising to change everything. And they might. But at the same time, the algorithms are slowly eating your attention, your time, and your presence with the people who matter most.
-            </p>
-
-            <p>
-              Whether you&apos;re ready or not, you have to act now and figure out how to leverage these tools for better outcomes in life and business while protecting yourself and your family from the grip the algorithms have on your attention.
-            </p>
-
-            <p>
-              This is a space to experiment, filter the noise, and figure out what&apos;s actually worth paying attention to.
+              Ready or Not is a space to experiment, filter the noise, and figure out what&apos;s actually worth paying attention to as we navigate entrepreneurship, parenthood, and the struggles of staying in front of an increasingly chaotic world.
             </p>
           </div>
 
@@ -200,7 +192,7 @@ export default function Home() {
           display: flex;
           flex-direction: column;
           justify-content: center;
-          padding: 4rem 0;
+          padding: 8rem 0 4rem;
           position: relative;
           background: var(--white);
         }
