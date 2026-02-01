@@ -7,7 +7,7 @@ export default function Header() {
     <header className="header">
       <div className="header-container">
         <Link href="/" className="logo">
-          Ready or <span style={{ color: 'var(--red)' }}>Not.</span>
+          Ready or <span style={{ color: 'var(--red)' }}>Not...</span>
         </Link>
         <nav className="nav">
           <a href="https://321.readyornot.ai" className="nav-link">
