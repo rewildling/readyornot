@@ -423,7 +423,7 @@ export default function Home() {
 
         /* What This Is Section */
         .what {
-          padding: 6rem 0;
+          padding: 6rem 0 3rem;
           background: var(--white);
         }
 
@@ -455,14 +455,14 @@ export default function Home() {
 
         /* Final CTA */
         .final-cta {
-          padding: 6rem 0;
+          padding: 4rem 0;
           text-align: center;
           background: var(--white);
         }
 
         .final-cta h2 {
           font-family: var(--sans);
-          font-size: clamp(2rem, 6vw, 3.5rem);
+          font-size: clamp(1.5rem, 4vw, 2.25rem);
           font-weight: 800;
           margin-bottom: 1.5rem;
         }
