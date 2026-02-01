@@ -6,12 +6,25 @@ export default function Home() {
       {/* Hero */}
       <section className="hero">
         <div className="container">
-          <h1>You feel it, <em style={{ color: 'var(--red)' }}>don&apos;t you?</em></h1>
+          <h1>Here it comes.</h1>
 
-          <p className="hero-lead">
-            The ground shifting. The rules changing faster than anyone can explain.
-            AI promising everything while the algorithms slowly eat your attention, your time, your presence with the people who matter most.
-          </p>
+          <div className="hero-content">
+            <p>
+              You feel it. The ground is shifting. The rules are changing faster than anyone can explain.
+            </p>
+
+            <p>
+              Every day there&apos;s a new wave of AI tools promising to change everything. And they might. But at the same time, the algorithms are slowly eating your attention, your time, and your presence with the people who matter most.
+            </p>
+
+            <p>
+              Whether you&apos;re ready or not, you have to act now and figure out how to leverage these tools for better outcomes in life and business while protecting yourself and your family from the grip the algorithms have on your attention.
+            </p>
+
+            <p>
+              This is a space to experiment, filter the noise, and figure out what&apos;s actually worth paying attention to.
+            </p>
+          </div>
 
           <a href="#subscribe" className="cta-primary">
             Follow the journey
@@ -227,11 +240,19 @@ export default function Home() {
           color: var(--red);
         }
 
-        .hero-lead {
+        .hero-content {
+          margin-bottom: 3rem;
+        }
+
+        .hero-content p {
           font-size: 1.25rem;
           color: var(--gray);
-          margin-bottom: 3rem;
-          max-width: 540px;
+          margin-bottom: 1.5rem;
+          line-height: 1.7;
+        }
+
+        .hero-content p:last-child {
+          margin-bottom: 0;
         }
 
         .cta-primary {
