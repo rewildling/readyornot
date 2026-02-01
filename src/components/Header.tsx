@@ -7,7 +7,7 @@ export default function Header() {
     <header className="header">
       <div className="header-container">
         <Link href="/" className="logo">
-          Ready or <span>Not</span>.
+          Ready or <span style={{ color: 'var(--red)' }}>Not.</span>
         </Link>
         <nav className="nav">
           <a href="https://321.readyornot.ai" className="nav-link">
@@ -31,9 +31,9 @@ export default function Header() {
         }
 
         .header-container {
-          max-width: 680px;
+          max-width: 1200px;
           margin: 0 auto;
-          padding: 1rem 1.5rem;
+          padding: 1.25rem 2rem;
           display: flex;
           justify-content: space-between;
           align-items: center;
@@ -41,24 +41,20 @@ export default function Header() {
 
         .logo {
           font-family: var(--sans);
-          font-size: 1.25rem;
+          font-size: 1.5rem;
           font-weight: 800;
           letter-spacing: -0.02em;
           color: var(--black);
           text-decoration: none;
         }
 
-        .logo span {
-          color: var(--red);
-        }
-
         .nav {
           display: flex;
-          gap: 1.5rem;
+          gap: 2rem;
         }
 
         .nav-link {
-          font-size: 0.9rem;
+          font-size: 1rem;
           color: var(--gray);
           text-decoration: none;
           transition: color 0.2s ease;

@@ -6,7 +6,7 @@ export default function Home() {
       {/* Hero */}
       <section className="hero">
         <div className="container">
-          <h1>You feel it, <em>don&apos;t you?</em></h1>
+          <h1>You feel it, <em style={{ color: 'var(--red)' }}>don&apos;t you?</em></h1>
 
           <p className="hero-lead">
             The ground shifting. The rules changing faster than anyone can explain.
@@ -190,6 +190,10 @@ export default function Home() {
           padding: 4rem 0;
           position: relative;
           background: var(--white);
+        }
+
+        .hero .container {
+          max-width: 900px;
         }
 
         .hero::after {
