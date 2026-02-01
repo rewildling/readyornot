@@ -36,7 +36,7 @@ export default function Home() {
             <div className="struggle-item">
               <p>
                 <strong>You see the potential.</strong> AI could help you make more money, work fewer hours,
-                finally get ahead. You&apos;re not a luddite. You want to use it.
+                finally get ahead. You want to use it.
               </p>
             </div>
 
@@ -58,8 +58,7 @@ export default function Home() {
 
             <div className="struggle-item">
               <p>
-                <strong>Meanwhile, the people you love are right there</strong>—and you&apos;re half-present,
-                distracted, always with one eye on the screen.
+                <strong>Meanwhile, the people you love are right there</strong> but you are all half present, with one foot in reality and the other distracted by the next reel.
               </p>
             </div>
           </div>
@@ -106,8 +105,7 @@ export default function Home() {
 
             <div className="who-text">
               <p>
-                My oldest is 10. My youngest is in diapers. My wife works harder than anyone I&apos;ve ever met
-                holding this family together, and I owe it to her—to all of them—to figure out how to
+                My oldest is 10. My youngest is in diapers. My wife works harder than anyone I&apos;ve ever met, and I owe it to all of them to figure out how to
                 provide, protect, and still be <strong>present</strong>.
               </p>
 
@@ -138,7 +136,7 @@ export default function Home() {
 
           <ul className="what-list">
             <li>
-              <strong>AI leverage:</strong> What actually helps. Tools, workflows, the stuff that moves the needle—not productivity theater.
+              <strong>AI leverage:</strong> What actually helps. Tools, workflows, the stuff that moves the needle.
             </li>
             <li>
               <strong>Algorithm defense:</strong> How to protect your attention, detect manipulation, and stay human in a world designed to capture you.
@@ -147,7 +145,7 @@ export default function Home() {
               <strong>The integrated life:</strong> Building businesses and systems that work with your family, not against it. Presence as the ultimate metric.
             </li>
             <li>
-              <strong>Real experiments:</strong> What I&apos;m actually trying—in business, in parenting, in life. The failures matter more than the wins.
+              <strong>Real experiments:</strong> What I&apos;m actually trying in business, in parenting, and in life.
             </li>
           </ul>
 
@@ -164,7 +162,7 @@ export default function Home() {
           <h2>Ready or <em>not</em>, here it comes.</h2>
           <p>
             If you&apos;re feeling the tension between potential and overwhelm,
-            between wanting to use these tools and not wanting to lose yourself to them—you&apos;re not alone.
+            between wanting to use these tools and not wanting to lose yourself to them, you&apos;re not alone.
           </p>
 
           <div className="newsletter-embed">
