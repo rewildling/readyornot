@@ -21,14 +21,8 @@ export const metadata: Metadata = {
   title: "Ready or Not — How to Thrive in the Age of Algorithms",
   description: "AI leverage without algorithmic capture. Real experiments in using technology to build a better life.",
   icons: {
-    icon: [
-      { url: '/favicon.ico', sizes: '32x32' },
-      { url: '/favicon.svg', type: 'image/svg+xml', sizes: 'any' }
-    ],
-    shortcut: ['/favicon.ico'],
-    apple: [
-      { url: '/apple-touch-icon.png', sizes: '180x180' }
-    ]
+    icon: { url: '/favicon.svg', type: 'image/svg+xml' },
+    apple: { url: '/apple-touch-icon.png', sizes: '180x180' }
   }
 };
 
